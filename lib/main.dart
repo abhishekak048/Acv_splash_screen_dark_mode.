@@ -31,12 +31,12 @@ class Animatation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SplashScreen.navigate(
-      name: "assets/New File 1 (2).flr",
+      name: "assets/ACV (3).flr",
       next: LoginScreen(),
       width: double.infinity,
       height: double.infinity,
       alignment: Alignment.center,
-      until: () => Future.delayed(Duration(seconds: 1)),
+      until: () => Future.delayed(Duration(milliseconds: 200)),
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       startAnimation: "ACV",
     );
